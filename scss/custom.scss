@@ -1,0 +1,13 @@
+// Global changes go here
+$body_bg: #00794c;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.margin {
+    margin: 10rem;
+
+    @media screen and (min-width: 1400px) {
+        width: 1079px;
+        margin: 10rem auto;
+    }
+}
